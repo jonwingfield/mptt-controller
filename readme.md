@@ -16,6 +16,8 @@ The basics of a buck converter are simple and are well-explained in the above li
 
 #### Efficiency (see resources for overview)
 
+Efficiency Calculation: http://www.ti.com/lit/an/slyt358/slyt358.pdf
+
 There a few efficiency problems with the basic buck converter design:
 
 1. The voltage drop of the diode.
