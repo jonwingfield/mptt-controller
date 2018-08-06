@@ -31,5 +31,7 @@ There a few efficiency problems with the basic buck converter design:
 2. Low Rise/Fall time MOSFET.
 3. Selection of switch frequency. A higher frequency will reduce output ripple but increase switching losses, and vise-versa.
 
+Another important consideration is the drive current of the gate driver IC. A higher drive current will switch the MOSFET faster and result in lower switching losses. _TODO: understand why_
+
 ![Efficiency calculations](https://www.electronicdesign.com/sites/electronicdesign.com/files/uploads/2013/05/Table%20Avnet.JPG)
 
