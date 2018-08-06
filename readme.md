@@ -14,7 +14,7 @@ Reference Design: http://www.ti.com/tool/TIDA-00120
 
 The basics of a buck converter are simple and are well-explained in the above link. Use PWM and a MOSFET to reduce the average voltage. Add an inductor to smooth the current. Add a diode to create a current path when the MOSFET is off. Add a capacitor to smooth the voltage. Finally, some voltage feedback mechanism is necessary to adapt the PWM duty cycle to keep the voltage constant.
 
-### Component Selection (Inductor and Capacitor)
+#### Component Selection (Inductor and Capacitor)
 
 http://www.onsemi.com/pub/Collateral/AND9135-D.PDF
 
