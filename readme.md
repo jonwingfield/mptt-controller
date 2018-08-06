@@ -22,7 +22,7 @@ There a few efficiency problems with the basic buck converter design:
 2. Output ripple.
 3. Switching losses in the MOSFET.
 
-(1) is addressed by replacing the diode with a MOSFET and toggling it opposite the main MOSFET. The main MOSFET is known as the high-side and the other is the low-side. I believe this is called a half-bridge but I'm not certain.
+(1) is addressed by replacing the diode with a MOSFET and toggling it opposite the main MOSFET. The main MOSFET is known as the high-side and the other is the low-side. This is called a synchronous buck converter.
 (2) is addressed by what's known as an *interleaved* design. This places two circuits in parallel, which supposedly halves the ripple. _TODO: understand why_.
 (3) is minimized by a few factors:
 1. Low RDS(on) MOSFET.
