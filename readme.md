@@ -6,6 +6,7 @@ Reference Design: http://www.ti.com/tool/TIDA-00120
 
 - How Buck Converters work (video is super helpful): https://electronicsforu.com/videos-slideshows/diy-buck-converter-tutorial
 - DIY MPTT Charge Controller: http://coder-tronics.com/c2000-solar-mppt-tutorial-pt1/. This explains how to build a buck converter that is very efficient (see notes below).
+- Fundamentals of MOSFET Driver circuits: http://www.ti.com/lit/ml/slua618/slua618.pdf
 
 ## Theory of Operation
 
