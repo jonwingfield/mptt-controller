@@ -16,7 +16,7 @@ The basics of a buck converter are simple and are well-explained in the above li
 
 #### Efficiency (see resources for overview)
 
-Efficiency Calculation: http://www.ti.com/lit/an/slyt358/slyt358.pdf
+Efficiency Calculation: http://www.ti.com/lit/an/slyt358/slyt358.pdf and https://www.electronicdesign.com/power/fundamentals-buck-converter-efficiency
 
 There a few efficiency problems with the basic buck converter design:
 
@@ -31,5 +31,5 @@ There a few efficiency problems with the basic buck converter design:
 2. Low Rise/Fall time MOSFET.
 3. Selection of switch frequency. A higher frequency will reduce output ripple but increase switching losses, and vise-versa.
 
-![https://www.electronicdesign.com/sites/electronicdesign.com/files/uploads/2013/05/Table%20Avnet.JPG]
+![Efficiency calculations](https://www.electronicdesign.com/sites/electronicdesign.com/files/uploads/2013/05/Table%20Avnet.JPG)
 
