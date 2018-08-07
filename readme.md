@@ -39,3 +39,8 @@ Another important consideration is the drive current of the gate driver IC. A hi
 
 ![Efficiency calculations](https://www.electronicdesign.com/sites/electronicdesign.com/files/uploads/2013/05/Table%20Avnet.JPG)
 
+### Ringing
+
+http://www.ti.com/lit/an/slpa010/slpa010.pdf
+
+This happens at the gate of the MOSFETs. I don't fully understand why yet, even after reading the above, but it's the reason we need a gate resistor between the driver and the MOSFET.
