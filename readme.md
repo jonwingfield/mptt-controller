@@ -45,3 +45,7 @@ Another important consideration is the drive current of the gate driver IC. A hi
 http://www.ti.com/lit/an/slpa010/slpa010.pdf
 
 This happens at the gate of the MOSFETs. I don't fully understand why yet, even after reading the above, but it's the reason we need a gate resistor between the driver and the MOSFET.
+
+## Appendix A - Notes (because I'm a noob ;)
+
+N-Channel MOSFETs/Transistors are generally used on the ground side of a load. P-Channels on the high side, and are reversed (low = on, high = off).
