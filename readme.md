@@ -8,7 +8,7 @@ Reference Design: http://www.ti.com/tool/TIDA-00120
 - DIY MPTT Charge Controller: http://coder-tronics.com/c2000-solar-mppt-tutorial-pt1/. This explains how to build a buck converter that is very efficient (see notes below).
 - Fundamentals of MOSFET Driver circuits: http://www.ti.com/lit/ml/slua618/slua618.pdf
 - Another DIY. Very mature https://hackaday.io/project/158859-high-efficiency-mppt-solar-charger
-- TI Buck Converter Reference: http://www.ti.com/lit/ug/sluu121b/sluu121b.pdf
+- TI Buck Converter Reference: http://www.ti.com/tool/PMP7051C http://www.ti.com/lit/ug/sluu121b/sluu121b.pdf
 
 ## Theory of Operation
 
