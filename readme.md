@@ -1,6 +1,7 @@
 # MPTT Charge Controller
 
 Reference Design: http://www.ti.com/tool/TIDA-00120
+
 Better Reference Design: http://www.ti.com/lit/ug/tiduej8a/tiduej8a.pdf?&ts=1588978099192
 
 ## Resources
