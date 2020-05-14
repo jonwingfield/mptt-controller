@@ -51,6 +51,8 @@ This happens at the gate of the MOSFETs. I don't fully understand why yet, even 
 
 Also, parasitic inductances and capacitances occur due to the fast switching, so an RC Snubber circuit can be used to mitigate this: http://rohmfs.rohm.com/en/products/databook/applinote/ic/power/switching_regulator/buck_snubber_app-e.pdf
 
+Techniques to reduce ringing: http://www.ti.com/lit/an/slpa010/slpa010.pdf
+
 ## Appendix A - Notes (because I'm a noob ;)
 
 N-Channel MOSFETs/Transistors are generally used on the ground side of a load. P-Channels on the high side, and are reversed (low = on, high = off).
