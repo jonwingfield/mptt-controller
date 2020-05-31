@@ -53,6 +53,14 @@ Also, parasitic inductances and capacitances occur due to the fast switching, so
 
 Techniques to reduce ringing: http://www.ti.com/lit/an/slpa010/slpa010.pdf
 
+## Diode Emulation Mode
+
+When the current is low, the inductor current can go negative, resulting in lost efficiency and back current flow into the panel. To prevent this, the sync FET is kept off and uses the body diode to conduct current. This is known as diode emulation mode. 
+
+Important: we also need to use this mode at startup to prevent issues with reverse current flow. See https://en-support.renesas.com/knowledgeBase/4967491. 
+
+See also: http://www.ti.com/lit/ug/tiduan2/tiduan2.pdf?ts=1590949279905
+
 ## Appendix A - Notes (because I'm a noob ;)
 
 N-Channel MOSFETs/Transistors are generally used on the ground side of a load. P-Channels on the high side, and are reversed (low = on, high = off).
