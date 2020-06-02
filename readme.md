@@ -21,6 +21,7 @@ The basics of a buck converter are simple and are well-explained in the above li
 #### Component Selection (Inductor and Capacitor)
 
 http://www.onsemi.com/pub/Collateral/AND9135-D.PDF
+http://www.ti.com/lit/an/snva038b/snva038b.pdf?ts=1591102835925
 
 #### Efficiency (see resources for overview)
 
